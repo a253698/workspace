@@ -9,9 +9,8 @@ public class Manager extends Employee {
 
 	}
 
-	@Override
 	public void print() {
-		System.out.println(name + "\t" + (money + plus));
+		System.out.println(name + "\t"+ (money + plus));
 	}
 
 }
